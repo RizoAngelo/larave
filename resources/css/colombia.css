@@ -1,0 +1,61 @@
+/*--------
+Estilo Login
+----------*/
+.form-basico {
+    max-width: 640px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 55px;
+    box-sizing: border-box;
+    background-color:rgb(81, 34, 34);;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    font: bold 14px sans-serif;
+    text-align: center;
+}
+.entrada {
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.form-basico .entrada label {
+    display: inline-block;
+    box-sizing: border-box;
+    color: #0b0b0b;
+    width: 180px;
+    text-align: left;
+    vertical-align: top;
+    padding: 12px 25px;
+}
+.form-basico input[type=text], 
+.form-basico input[type=password]{
+    color: #5f5f5f;
+    box-sizing: border-box;
+    width: 240px;
+   padding: 12px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+.boton {
+    display: block;
+    border-radius: 2px;
+    background-color: rgb(19, 19, 59);
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 22px;
+    border: 0;
+    margin: 40px 183px 0;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+}
+
+.x:valid + .icon  {
+    color: green;
+    border-color:green;
+    border-radius: 20px;
+  }
+  .x:invalid + .icon {
+    color: rgb(227, 14, 14);
+    border-color:red;
+  }
+  
