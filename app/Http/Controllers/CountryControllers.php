@@ -28,7 +28,7 @@ class CountryControllers extends Controller
 
         public function update(Request $request, $id)
      {
-        $request->validate(Country::$rules);
+         $request->validate(Country::$rules);
 
         Country::where('id', $id)->update($request->except('_token', '_method'));
 

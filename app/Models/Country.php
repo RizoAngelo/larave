@@ -11,7 +11,7 @@ class Country extends Model
 
     protected $tabla ='countries';
 
-    protected $fillable=[
+    protected $rules=[
         'country_code',
         'country_name',
     ];
