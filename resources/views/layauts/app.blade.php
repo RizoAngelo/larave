@@ -24,10 +24,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Menu1</a>
+              <a class="nav-link" href="/select">tablas paises</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Menu2</a>
+              <a class="nav-link" href="/">insertar un pais</a>
             </li>
           </ul>
         </div>
